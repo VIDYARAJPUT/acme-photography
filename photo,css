@@ -1,0 +1,118 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color:#f8f8f8 ;
+    margin: 0%;
+    height: auto;
+}
+main{
+    max-width: 950px;
+    margin: auto;
+    box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.2),
+    -30px 0px 40px rgba(0, 0, 0, 0.2);
+}
+h1{
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin: 0%;
+}
+h2{
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-transform:capitalize;
+    margin: 0%; 
+}
+image{
+    display: block;
+    width: 100%;
+    align-items: center;
+}
+.btn{
+    padding: 0.5rem;
+    border: 1px black solid;
+    display: inline-block;
+    margin: 2rem 0 0;
+    border-radius: 50px;
+    text-decoration: underline;
+    color: darkred;
+    transition: background 500ms ease; 
+}
+#landing{
+    background-color: #fff;
+}
+
+#landing-text{
+    display: flex;
+    flex:0 1 40vw;
+     height:50vh;
+    background-color:whitesmoke;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+#landing-text h2{
+    color:grey;
+}
+#landing-image{
+  background: url(https://img1.goodfon.com/original/1920x1080/b/6e/olympus-pen-f-olympus-camera-5718.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  flex: 0 1 60vw;
+  margin: 0;
+}
+.btn:hover{
+background-color: #f8f8f8;;
+}
+#header{
+    padding: 1.5rem;
+  text-align: center;
+  background: #333;
+  color: #fff;
+}
+#header h2{
+    border-left: dotted 1px #fff;
+  border-right: dotted 1px #fff;
+  display: inline-block;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+.first{
+    width: 100%;
+    height:80vh;
+}
+.caption{
+    padding: 0.5rem 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+footer{
+    text-align: center;
+    padding: 2rem 1rem;
+  margin: auto;
+  color: #333;
+}
+footer h3{
+    font-size: 3rem;
+  margin-bottom: 0;
+}
+@media(min-width:500px){
+ #landing{
+ display: flex;
+ height: 100%;
+ }
+ #landing-image{
+    height: 100vh;
+ }
+ #landing-text{
+    height:100vh;
+ }
+}
+@media (min-width:700px){
+.btn{
+    padding: 1rem 3rem;
+}
+}
